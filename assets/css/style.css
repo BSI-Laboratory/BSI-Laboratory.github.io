@@ -472,3 +472,56 @@ a.contact-val:hover { color: var(--navy); }
   .hero-title { font-size: 3rem; }
   .container { padding: 0 16px; }
 }
+
+/* ===== PI AVATAR PHOTO ===== */
+.pi-avatar-img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* ===== PI CV SECTION (Education & Experience) ===== */
+.pi-cv-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0 18px;
+  padding: 20px 24px;
+  background: var(--navy-ghost);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.pi-cv-heading {
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+.pi-cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.pi-cv-list li {
+  font-size: .84rem;
+  color: var(--text-mid);
+  line-height: 1.55;
+}
+.pi-cv-year {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--navy);
+  min-width: 80px;
+  margin-right: 4px;
+}
+.pi-cv-note {
+  display: inline;
+  font-size: .78rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-left: 4px;
+}
