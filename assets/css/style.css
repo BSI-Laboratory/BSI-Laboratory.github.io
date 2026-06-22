@@ -502,6 +502,8 @@ a.contact-val:hover { color: var(--navy); }
   padding: 2px 9px; border-radius: 100px;
 }
 
+.pub-footnote { font-size: .78rem; color: var(--text-muted); margin-top: 4px; }
+
 /* ===== PI AVATAR PHOTO ===== */
 .pi-avatar-img {
   object-fit: cover;
