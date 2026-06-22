@@ -270,21 +270,22 @@ section { padding: 88px 0; }
 /* ===== PEOPLE ===== */
 .people { background: var(--bg-light); }
 .pi-card {
-  display: flex; gap: 32px; align-items: flex-start;
+  display: flex; flex-direction: column; align-items: center; gap: 28px;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 36px;
+  padding: 40px 36px 36px;
   box-shadow: var(--shadow-sm);
   margin-bottom: 24px;
 }
 .pi-avatar {
   flex-shrink: 0;
-  width: 80px; height: 80px; border-radius: 50%;
+  width: 240px; height: 240px; border-radius: 50%;
   background: var(--navy); color: #fff;
   display: flex; align-items: center; justify-content: center;
   font-family: var(--display); font-size: 1.5rem; font-weight: 700;
 }
+.pi-body { width: 100%; }
 .pi-role {
   display: block;
   font-size: .72rem; font-weight: 600;
@@ -454,8 +455,7 @@ a.contact-val:hover { color: var(--navy); }
   .hero-cta { flex-direction: column; align-items: center; }
 
   /* PI card */
-  .pi-card { flex-direction: column; }
-  .pi-avatar { width: 64px; height: 64px; font-size: 1.25rem; }
+  .pi-avatar { width: 180px; height: 180px; }
 
   /* Grids */
   .research-grid,
