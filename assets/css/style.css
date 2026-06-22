@@ -515,6 +515,7 @@ a.contact-val:hover { color: var(--navy); }
   border: 1px solid var(--border);
   border-radius: var(--radius);
   border-left: 4px solid var(--navy);
+  display: flex; flex-direction: column;
 }
 .pub-meta { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
 .pub-venue {
@@ -544,7 +545,7 @@ a.contact-val:hover { color: var(--navy); }
 }
 .pub-jcr { font-size: .7rem; color: var(--text-muted); }
 .pub-link {
-  display: inline-block; margin-top: 10px;
+  display: inline-block; align-self: flex-end; margin-top: 12px;
   font-size: .75rem; font-weight: 500;
   color: var(--navy); border: 1px solid var(--navy);
   padding: 4px 12px; border-radius: 4px;
