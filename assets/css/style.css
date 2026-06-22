@@ -473,6 +473,35 @@ a.contact-val:hover { color: var(--navy); }
   .container { padding: 0 16px; }
 }
 
+/* ===== PUBLICATIONS (real list) ===== */
+.pub-list { display: flex; flex-direction: column; gap: 20px; }
+.pub-item {
+  padding: 24px 28px;
+  background: var(--bg-light);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--navy);
+}
+.pub-meta { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
+.pub-venue {
+  font-size: .72rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .1em;
+  color: var(--navy); background: var(--navy-pale);
+  padding: 3px 10px; border-radius: 4px;
+}
+.pub-year { font-size: .8rem; color: var(--text-muted); }
+.pub-title { font-size: .975rem; margin-bottom: 8px; line-height: 1.4; color: var(--text-dark); }
+.pub-title a { color: var(--text-dark); }
+.pub-title a:hover { color: var(--navy); }
+.pub-authors { font-size: .84rem; color: var(--text-muted); margin-bottom: 12px; line-height: 1.6; }
+.pub-authors strong { color: var(--text-dark); font-weight: 600; }
+.pub-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.pub-tag {
+  font-size: .7rem; font-weight: 500;
+  color: var(--text-muted); border: 1px solid var(--border);
+  padding: 2px 9px; border-radius: 100px;
+}
+
 /* ===== PI AVATAR PHOTO ===== */
 .pi-avatar-img {
   object-fit: cover;
