@@ -536,6 +536,13 @@ a.contact-val:hover { color: var(--navy); }
   padding: 2px 9px; border-radius: 100px;
 }
 
+.pub-metrics { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.pub-if {
+  font-size: .7rem; font-weight: 600;
+  color: var(--navy); background: rgba(15,32,70,.07);
+  padding: 2px 8px; border-radius: 4px;
+}
+.pub-jcr { font-size: .7rem; color: var(--text-muted); }
 .pub-footnote { font-size: .78rem; color: var(--text-muted); margin-top: 4px; }
 
 /* ===== PI AVATAR PHOTO ===== */
